@@ -81,3 +81,12 @@
 .navbar--open #navbar-btn-close {
   @apply hidden;
 }
+
+input {
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+}
