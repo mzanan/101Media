@@ -62,8 +62,12 @@
   }
 }
 
-.box-shadow {
+.box-shadow-hire-button {
   box-shadow: 0px 8px 20px 0px rgba(242, 78, 112, 0.25);
+}
+
+.box-shadow-quotes {
+  box-shadow: 0px 4px 10px 0px rgba(242, 242, 242, 0.49);
 }
 
 #navbar-btn-open {
@@ -80,13 +84,4 @@
 
 .navbar--open #navbar-btn-close {
   @apply hidden;
-}
-
-input {
-  ::-webkit-input-placeholder {
-    text-align: center;
-  }
-  :-moz-placeholder {
-    text-align: center;
-  }
 }
