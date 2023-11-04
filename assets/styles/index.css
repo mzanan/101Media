@@ -29,7 +29,7 @@
   }
 
   .title {
-    @apply font-black text-[42px] leading-[58px] lg:text-4xl;
+    @apply font-black text-[42px] leading-[58px];
   }
 
   .subtitle {
@@ -37,16 +37,20 @@
   }
 
   .card {
-    @apply flex flex-col py-6 px-12 rounded-lg items-center justify-center gap-2;
+    @apply flex flex-col py-6 px-12  rounded-lg items-center justify-center gap-2 lg:px-0 lg:flex-1 lg:mx-auto lg:text-center;
     background: linear-gradient(110deg, #636363 0%, rgba(29, 36, 0, 0.53) 100%);
   }
 
   .card__title {
-    @apply text-[80px] self-center;
+    @apply text-[80px] self-center lg:max-xl:text-7xl;
   }
 
   .card__description {
-    @apply font-bold;
+    @apply font-bold text-secondary h-10;
+  }
+
+  .card img {
+    @apply lg:max-xl:w-14 lg:max-xl:h-14 self-center;
   }
 
   .outline-card {
