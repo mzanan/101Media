@@ -46,7 +46,7 @@
   }
 
   .card__description {
-    @apply font-bold text-secondary h-10;
+    @apply font-bold text-secondary h-10 lg:self-center lg:py-2;
   }
 
   .card img {
