@@ -10,7 +10,7 @@
 <body>
   <header>
     <nav id="navbar" class="w-full lg:bg-surface shadow-sm">
-      <div class="col lg:flex-row lg:container lg:mx-auto lg:max-w-[1184px]">
+      <div class="col lg:flex-row lg:container lg:mx-auto lg:max-w-[1192px]">
         <div class="flex items-center h-[4.5rem] px-6 drop-shadow-sm bg-surface justify-between lg:drop-shadow-none">
           <a href="./index.html">
             <img src="assets/images/logo.png" alt="logo" />
@@ -107,9 +107,9 @@
       </div>
     </nav>
   </header>
-  <main class="max-w-[1184px] col lg:mx-auto">
-    <container class="container gap-6">
-      <div class="col gap-8">
+  <main class="max-w-[1192px] col lg:mx-auto">
+    <container class="container gap-6 lg:gap-20">
+      <div class="col gap-8 lg:row lg:justify-between">
         <div class="col gap-10">
           <div class="col gap-4">
             <span class="text-xl font-semibold text-secondary">
@@ -121,7 +121,7 @@
             </p>
           </div>
 
-          <span class="subtitle">
+          <span class="subtitle lg:max-w-[400px]">
             We are a beacon for self reported data for consumers.
           </span>
         </div>
@@ -129,39 +129,41 @@
         <img src="assets/images/lead-generation.gif" alt="lead-generation" />
       </div>
 
-      <div class="col gap-8">
-        <div class="relative">
-          <div class="outline-card absolute bottom-3 left-3 border-primary"></div>
-          <div class="outline-card border-light-gray">
-            <div class="col gap-3">
-              <span class="outline-title">Keeping in Touch</span>
-              <span class="outline-description">
-                From initial outreach through, second, third and fourth touches, our creative campaigning tactics
-                include emails, SMS; push, and retargeting tactics that build positive brand perception as we father
-                first person, self-reported data. We curate relationships before a lead is even a user, subscriber, or
-                consumer of your brand.
-              </span>
+      <div class="col gap-8 lg:gap-24">
+        <div class="col gap-8 lg:gap-24 lg:row lg:justify-center">
+          <div class="relative flex-1 max-w-[364px]">
+            <div class="outline-card absolute bottom-3 left-3 border-primary"></div>
+            <div class="outline-card border-light-gray">
+              <div class="col gap-3">
+                <span class="outline-title">Keeping in Touch</span>
+                <span class="outline-description">
+                  From initial outreach through, second, third and fourth touches, our creative campaigning tactics
+                  include emails, SMS; push, and retargeting tactics that build positive brand perception as we father
+                  first person, self-reported data. We curate relationships before a lead is even a user, subscriber, or
+                  consumer of your brand.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative flex-1 max-w-[364px]">
+            <div class="outline-card absolute bottom-3 left-3 border-primary"></div>
+            <div class="outline-card border-light-gray">
+              <div class="col gap-3">
+                <span class="outline-title">
+                  Keeping Integrity
+                </span>
+                <span class="outline-description">
+                  We consider campaign being TCPA and CCPA compliant a bare minimum clients should EXPECT. We pride
+                  ourselves on being fierce protectors of brand for our clients at every turn. We infuse creativity and
+                  brand building into every action taken to attract high value marketing targets.
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="relative">
-          <div class="outline-card absolute bottom-3 left-3 border-primary"></div>
-          <div class="outline-card border-light-gray">
-            <div class="col gap-3">
-              <span class="outline-title">
-                Keeping Integrity
-              </span>
-              <span class="outline-description">
-                We consider campaign being TCPA and CCPA compliant a bare minimum clients should EXPECT. We pride
-                ourselves on being fierce protectors of brand for our clients at every turn. We infuse creativity and
-                brand building into every action taken to attract high value marketing targets.
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col gap-8">
+        <div class="col gap-8 lg:flex-row">
           <div class="card">
             <div class="row gap-4">
               <span class="card__title">147</span>
@@ -193,70 +195,76 @@
         </div>
       </div>
 
-      <div class="col gap-6">
+      <div class="col gap-6 lg:gap-8">
         <span class="title text-secondary p-3">Looking to</span>
 
-        <div class="row gap-6">
-          <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
-          <span class="text-xl font-bold text-secondary">
-            Increase your leads?
-          </span>
-        </div>
+        <div class="col gap-6 lg:gap-20 lg:row">
+          <div class="row gap-6 flex-1">
+            <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
+            <span class="text-xl font-bold text-secondary">
+              Increase your leads?
+            </span>
+          </div>
 
-        <div class="row gap-6">
-          <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
-          <span class="text-xl font-bold text-secondary">
-            Generate leads that are better targeted?
-          </span>
-        </div>
 
-        <div class="row gap-6">
-          <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
-          <span class="text-xl font-bold text-secondary">
-            Avoid wasting time, marketing dollars, and yield in your lead generation?
-          </span>
-        </div>
-      </div>
+          <div class="row gap-6 flex-1">
+            <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
+            <span class="text-xl font-bold text-secondary">
+              Generate leads that are better targeted?
+            </span>
+          </div>
 
-      <div class="col gap-6">
-        <span class="title text-secondary p-3">Contact us!</span>
 
-        <div class="relative">
-          <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
-            Name
-          </label>
-          <input type="text" placeholder="Your Name"
-            class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-14 w-full" />
-        </div>
-
-        <div class="relative">
-          <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
-            Email
-          </label>
-          <input type="text" placeholder="Your Email"
-            class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-14 w-full" />
-        </div>
-
-        <div class="relative">
-          <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
-            Message
-          </label>
-          <textarea placeholder="Your Message"
-            class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-40 w-full"></textarea>
+          <div class="row gap-6 flex-1">
+            <img src="./assets/images/icons/list-icon-shape.svg" alt="list icon shape" class="self-start" />
+            <span class="text-xl font-bold text-secondary">
+              Avoid wasting time, marketing dollars, and yield in your lead generation?
+            </span>
+          </div>
         </div>
       </div>
 
-      <img src="assets/images/contact.gif" alt="hire-us" />
+      <div class="col gap-6 lg:row lg:justify-between">
+        <div class="col gap-6 lg:max-w-[364px] lg:w-full">
+          <span class="title text-secondary p-3">Contact us!</span>
+
+          <div class="relative">
+            <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
+              Name
+            </label>
+            <input type="text" placeholder="Your Name"
+              class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-14 w-full" />
+          </div>
+
+          <div class="relative">
+            <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
+              Email
+            </label>
+            <input type="text" placeholder="Your Email"
+              class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-14 w-full" />
+          </div>
+
+          <div class="relative">
+            <label class="absolute -top-3 left-4 bg-surface text-sm font-light p-1">
+              Message
+            </label>
+            <textarea placeholder="Your Message"
+              class="bg-surface border border-light-gray rounded-lg text-light-gray p-4 h-40 w-full"></textarea>
+          </div>
+        </div>
+
+        <img src="assets/images/contact.gif" alt="hire-us" />
+      </div>
     </container>
   </main>
 
   <div class="w-full h-1 bg-primary"></div>
 
-  <footer class="col py-12 px-8">
-    <div class="col gap-[70px]">
-      <div class="col gap-10">
-        <div class="row gap-8">
-          <div class="col gap-2 flex-1 shrink">
+  <footer class="max-w-[1400px] col py-12 px-8 lg:mx-auto">
+    <div class="col gap-[70px] lg:w-full lg:mx-auto">
+      <div class="col gap-10 lg:row lg:justify-between">
+        <div class="row gap-8 lg:w-full">
+          <div class="col gap-2 flex-1">
             <span class="text-xl font-semibold">About Us</span>
 
             <div class="row gap-4">
@@ -307,7 +315,7 @@
           </div>
         </div>
 
-        <ul class="gap-2 list-disc self-center">
+        <ul class="gap-2 list-disc self-center lg:shrink-0">
           <li>
             <a href="#" class="underline">Terms & Conditions</a>
           </li>
